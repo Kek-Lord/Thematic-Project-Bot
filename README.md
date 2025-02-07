@@ -65,6 +65,10 @@ npx nodemon index.js
 
 At the minute, the only functionality is when you type "hello" (without the quotes), it respondes with "Hello!"
 
+## Additional notes
+
+If you find your editor is complaining at you about formatting, you can delete the eslint.config.js file and it should fix any issues
+
 ## Contributing
 
 As this is a group project, this just sets the bot up, I'll also be working on a commands handler (to handle slash commands),
