@@ -1,6 +1,6 @@
 # Thematic Project Bot
 
-This is a Discord bot designed for thematic project functionality. Follow the steps below to clone and set up the bot on your own machine.
+This is a Discord bot designed for the thematic project. Follow the steps below to clone and set up the bot on your own machine.
 
 ## Prerequisites
 
@@ -61,9 +61,14 @@ Or, if you're using nodemon for development:
 npx nodemon index.js
 ```
 
+## What does this bot do so far?
+
+At the minute, the only functionality is when you type "hello" (without the quotes), it respondes with "Hello!"
+
 ## Contributing
 
-Feel free to fork this repository and submit pull requests if you have improvements!
+As this is a group project, this just sets the bot up, I'll also be working on a commands handler (to handle slash commands),
+and from there, we can implement actual functionality to the bot. Make sure to pull this repo every so often so you can stay the most up to date on the bot development.
 
 ## License
 
