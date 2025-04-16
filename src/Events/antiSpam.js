@@ -4,13 +4,12 @@ const spamTracker = new Map();
 
 // SPAM_INTERVAL: Time window in milliseconds (e.g., 7000ms = 7 seconds)
 // SPAM_THRESHOLD: Maximum allowed messages within the time window
-const SPAM_INTERVAL = 7000;
-const SPAM_THRESHOLD = 5;
+const SPAM_INTERVAL = 10000;
+const SPAM_THRESHOLD = 3;
 
 module.exports = {
     name: Events.MessageCreate,
-    // The execute function will run every time a new message is created
-    execute(message) {
+    async execute(message) {
         // Ignore bot messages to avoid self-triggering spam checks
         if (message.author.bot) return;
 
