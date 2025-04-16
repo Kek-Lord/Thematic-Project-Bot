@@ -114,10 +114,10 @@ node deploy-commands.js
 
 Side note: if the command isn't working, check which directory your terminal is in, and cd into the corresponding directory.
 
-## Message Deletion Logging
+## Event Logging
 
 ### How it Works
-1. The bot listens for the `messageDelete` event.
+1. The bot listens for the event.
 2. The bot checks if `admin-bot-chat` channel exists:
    - If the channel exists, the bot posts the details of the deleted message to the channel.
    - If the channel doesn't exist, the bot creates it with admin permissions.
